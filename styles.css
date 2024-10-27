@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0078d7; /* Windows background color */
+}
+
+.screen {
+    width: 80vw;
+    height: 80vh;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-image: url('https://i.pinimg.com/originals/a0/9b/2f/a09b2f34c1916f0ef332d323f79cbbc7.jpg');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.taskbar {
+    background-color: rgba(45, 45, 48, 0.9); /* Semi-transparent taskbar */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center; /* Center the content */
+}
+
+.start-button {
+    cursor: pointer;
+}
+
+.windows-logo {
+    height: 24px; /* Adjust logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.icons {
+    display: flex;
+    flex-direction: column; /* Arrange icons vertically */
+    padding: 20px;
+    position: absolute;
+    left: 20px; /* Position on the left side */
+    top: 20px; /* Position from the top */
+}
+
+.icons .icon {
+    margin-bottom: 15px; /* Space between icons */
+}

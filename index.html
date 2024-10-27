@@ -18,8 +18,30 @@
             <div class="icon internet-explorer" title="Internet Explorer">🌐</div>
             <div class="icon" title="Settings">⚙️</div>
             <div class="icon close-icon" title="Close Tab" id="close-tab">❌</div> <!-- Close Icon -->
+            <div class="icon confession-icon" title="Confession" id="confession-icon">❤️</div> <!-- Heart Icon -->
         </div>
     </div>
+
+    <!-- Modal structure -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p>Will you be my girlfriend?  👅</p>
+            <div class="button-container">
+                <button id="yes-button">yesss</button>
+                <button id="no-button">naw</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="success-close-button">&times;</span>
+            <h2>Yay! DM me babygirl ❤️</h2>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
